@@ -2,8 +2,10 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import Categories from "@/components/Categories";
-import SellerSpotlight from "@/components/SellerSpotlight";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import CartDrawer from "@/components/CartDrawer";
 
 const Index = () => {
   return (
@@ -12,8 +14,10 @@ const Index = () => {
       <Hero />
       <FeaturedProducts />
       <Categories />
-      <SellerSpotlight />
+      <About />
+      <Contact />
       <Footer />
+      <CartDrawer />
     </div>
   );
 };
